@@ -22,7 +22,9 @@ In this project, the objective is to design with [Laravel](https://laravel.com) 
 
 1️⃣ Open a terminal in the folder where you want the repository to be cloned and enter this command:
 
-```git clone https://github.com/Leonkeneddy86/Kata_DNI.git```
+```
+git clone https://github.com/Leonkeneddy86/Kata_DNI.git
+```
 
 2️⃣ As you clone the repository, it will appear all the elements on it; you need to rename the file ".env.example" to ".env" and fill it with theese values:
 
@@ -31,27 +33,43 @@ In this project, the objective is to design with [Laravel](https://laravel.com) 
 2️⃣ In your preferred environment, open the project you cloned; you will need three consoles for the next step.
 
 ▷Console 1:
-    ```npm install```
+    ```
+    npm install
+    ```
 
-     ```npm run dev```
+     ```
+     npm run dev
+     ```
     
 ▷Console 2:
-    ```composer install```
+    ```
+    composer install
+    ```
 
-    ```php artisan serve```
+    ```
+    php artisan serve
+    ```
     
 ▷Console 3: 
-    ```php artisan migrate:fresh```
+    ```
+    php artisan migrate:fresh
+    ```
 
-    ```php artisan migrat:fresh --seed```
+    ```
+    php artisan migrate:fresh --seed
+    ```
     
 3️⃣ In the second console that you have opened, press the ctrl key and click on the link to localhost that it offers you. It should take you to the main view of the project where the offers are located.
 
 ⚠️ If you have done the previous steps and the view has not opened correctly, go back to the third command console and enter this:
 
-```php artisan key:generate```
+```
+php artisan key:generate
+```
 
- ```php artisan config:cache``` 
+ ```
+ php artisan config:cache
+``` 
 
 ## 🌐 Endpoints 
 For this project, just one endpoint i needed to do all the functionalities; it's used to introduce the number you want to process; if it's correct it will return your number plus the corresponding letter; if it's not, it will show an error message warning you to introduce a valid number.
@@ -68,7 +86,7 @@ All tests passed. Introduce this line on your console to check it:
 ./vendor/bin/phpunit tests
 ```
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b7dc068b-2746-4738-a0b8-2f9e1c851006" alt="PHP test" width="500"/>
+ <img width="671" alt="Captura de pantalla 2025-01-16 125108" src="https://github.com/user-attachments/assets/1b04b7fb-68f9-4db7-817f-db388dafc0b2" />
 </p>
 
 If you want to launch the tests and view them you can put this command in console 3:
@@ -78,9 +96,10 @@ php artisan test --coverage
 ```
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fedb145f-ac7b-4582-8bc3-0650835ca905" alt="PHP test coverage" width="500"/>
+  <img src="https://github.com/user-attachments/assets/fedb145f-ac7b-4582-8bc3-0650835ca905" alt="PHP test coverage" width="500"/
 </p>
 
 ## 🗂️ Jira Backlog 
 
-![Captura de pantalla 2025-01-09 092149](https://github.com/user-attachments/assets/9341f690-3145-41e9-89cf-af1f00b91ee2)
+![screencapture-jonathan19jtv-atlassian-net-jira-software-projects-SCRUM-boards-1-2025-01-16-12_07_41](https://github.com/user-attachments/assets/2b458084-8898-458a-86bd-a2f1ec4ece95)
+
