@@ -50,14 +50,12 @@ git clone https://github.com/Leonkeneddy86/Kata_DNI.git
     php artisan serve
     ```
     
-▷Console 3: 
-    ```
+## Execute Migration 
+    
     php artisan migrate:fresh
-    ```
-
-    ```
+    
     php artisan migrate:fresh --seed
-    ```
+    
     
 3️⃣ In the second console that you have opened, press the ctrl key and click on the link to localhost that it offers you. It should take you to the main view of the project where the offers are located.
 
